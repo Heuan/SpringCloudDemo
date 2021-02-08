@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:3000/eureka/
+      defaultZone: http://admin:123@eurekaDemo3000:3000/eureka/,http://admin:123@eurekaDemo3001:3001/eureka/,http://admin:123@eurekaDemo3002:3002/eureka/
   instance:
     instance-id: biz-1
     prefer-ip-address: true

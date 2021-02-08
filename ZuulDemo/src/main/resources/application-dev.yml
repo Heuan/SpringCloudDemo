@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:3000/eureka/
+      defaultZone: http://admin:123@eurekaDemo3000:3000/eureka/,http://admin:123@eurekaDemo3001:3001/eureka/,http://admin:123@eurekaDemo3002:3002/eureka/
   instance:
     instance-id: zuul-1
     prefer-ip-address: true
@@ -16,4 +16,4 @@ zuul:
       path: /biz1/**
   ignored-services: server-biz # 禁用单个服务，不能通过服务名字访问，禁用所有 “*”
   prefix: /api  #配置访问前缀
-  strip-prefix: false #
+  #strip-prefix: false #
