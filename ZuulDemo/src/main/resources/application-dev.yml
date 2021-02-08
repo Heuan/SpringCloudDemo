@@ -16,4 +16,4 @@ zuul:
       path: /biz1/**
   ignored-services: server-biz # 禁用单个服务，不能通过服务名字访问，禁用所有 “*”
   prefix: /api  #配置访问前缀
-  strip-prefix: false #
+  #strip-prefix: false #
