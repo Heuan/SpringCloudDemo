@@ -22,3 +22,7 @@
       serviceUrl:
         defaultZone: http://eurekaDemo3002:3002/eureka,http://eurekaDemo3001:3001/eureka
 ```
+## 分支
+```
+  Eureka 增加用户登录校验
+```
